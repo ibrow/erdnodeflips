@@ -1,0 +1,13 @@
+!!! Strict
+%html(lang="en")
+  %head
+    %title&= title
+  %body
+    %h1&= title
+    %p&= message
+    :if items.length === 0
+      %p There are no items to remember
+    :if items.length > 0
+      %ul
+        :each item in items
+          %li&= item
