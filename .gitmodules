@@ -1,0 +1,6 @@
+[submodule "libs/node-couchdb"]
+	path = libs/node-couchdb
+	url = git://github.com/felixge/node-couchdb.git
+[submodule "libs/haml-js"]
+	path = libs/haml-js
+	url = http://github.com/creationix/haml-js.git
