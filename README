@@ -1,5 +1,28 @@
+----------------------------------------------------------------------
 ErdNodeFlips - a simple little Node JS tutorial I'm working on.
-More info here:
+
+This is a simple Node JS tutorial I'm working on which, when complete will allow the user to save a lit of items they need to remember. I.e. Yet another todo list!
+
+The areas tackled in this tutorial are:
+ - CouchDB
+ - HAML
+ - Routing
+
+You can find more info here:
 http://www.robsearles.com/2010/05/28/nodejs-tutorial-erdnodeflips/
 
-Note: this page isn't live yet, I'm still fixing some typos!
+To install the tutorial, simply clone this repository and then load in the submodules with:
+$ git submodule init
+
+----------------------------------------------------------------------
+Many thanks goes to 
+
+Felix Geisendörfer -  http://github.com/felixge for his CouchDB module
+
+Tim Caswell - http://github.com/creationix for his Haml-js module and his work on http://www.howtonode.org
+
+And obviouly Ryan Dahl - http://github.com/ry for creating Node JS in the first place!
+
+----------------------------------------------------------------------
+The tutorial is release under the Creative Commons (Attribution-Share Alike 3.0 Germany License) and all code is released under aGPL v3.
+----------------------------------------------------------------------
